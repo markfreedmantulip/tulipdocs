@@ -4,18 +4,7 @@ excerpt: Update your docs automatically with `rdme`, ReadMe's official CLI and G
 category: 6290c6d3cd3ea60059fc869d
 ---
 
-<!--
-
-Hello curious raw Markdown reader! 👋
-This Markdown page is syncing to ReadMe via the `rdme` GitHub Action 🦉
-Check out the "Syncing Markdown Docs" example below,
-and peep the resulting page in our docs: https://docs.readme.com/docs/rdme
-
-We also do some fancy little find-and-replace action to swap out every instance
-of `RDME_VERSION` below with the latest version of rdme.
-Check out `.github/workflows/docs.yml` for more info on this!
-
--->
+Yayyyy
 
 If you're anything like us, your documentation process may be a part of a broader CI/CD process. For example, you may want to automatically update your ReadMe guides or API reference every time you've ship new code. Enter `rdme`: ReadMe's official command-line interface (CLI) and GitHub Action!
 
