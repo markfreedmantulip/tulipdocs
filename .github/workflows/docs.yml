@@ -19,6 +19,8 @@ jobs:
 
       # First, we run a script that sets a few outputs:
       # our package version and our Node.js version.
+      - name: change permissions
+        run: chmod +x ./bin/set-version-output
       - name: Retrieve version values from package.json
         id: rdme-version
         run: ./bin/set-version-output
