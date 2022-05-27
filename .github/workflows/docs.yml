@@ -17,6 +17,6 @@ jobs:
       - name: GitHub Action
         # We recommend specifying a fixed version, i.e. @7.2.0
         # Docs: https://docs.github.com/actions/using-workflows/workflow-syntax-for-github-actions#example-using-versioned-actions
-        uses: markfreedmantulip/tulipdocs@v1.1
+        uses: markfreedmantulip/tulipdocs@v1.2
         with:
-          rdme: docs ./documentation --key=6oBSezklRNBOq0xlTzL3dt6e1qPQyphy --version=v1.1
+          rdme: docs ./documentation --key=6oBSezklRNBOq0xlTzL3dt6e1qPQyphy --version=v1.2
