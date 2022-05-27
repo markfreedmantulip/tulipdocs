@@ -18,4 +18,3 @@ runs:
     - name: Execute rdme command
       run: ${{ github.action_path }}/bin/rdme ${{ inputs.rdme }}
       shell: bash
-      

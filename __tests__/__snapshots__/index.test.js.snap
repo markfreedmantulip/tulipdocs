@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cli --help should not surface args that are designated as hidden 1`] = `
+"
+Upload, or resync, your OpenAPI/Swagger definition to ReadMe.
+
+Usage
+
+  rdme openapi [file] [options] 
+
+Options
+
+  --key string                Project API key                                                       
+  --id string                 Unique identifier for your API definition. Use this if you're re-     
+                              uploading an existing API definition                                  
+  --version string            Project version                                                       
+  --workingDirectory string   Working directory (for usage with relative external references)       
+  -h, --help                  Display this usage guide                                              
+
+Related commands
+
+  $ rdme validate   Validate your OpenAPI/Swagger definition. 
+  $ rdme swagger    Alias for \`rdme openapi\`. [deprecated]    
+"
+`;
+
+exports[`cli --help should print usage for a given command 1`] = `
+"
+Upload, or resync, your OpenAPI/Swagger definition to ReadMe.
+
+Usage
+
+  rdme openapi [file] [options] 
+
+Options
+
+  --key string                Project API key                                                       
+  --id string                 Unique identifier for your API definition. Use this if you're re-     
+                              uploading an existing API definition                                  
+  --version string            Project version                                                       
+  --workingDirectory string   Working directory (for usage with relative external references)       
+  -h, --help                  Display this usage guide                                              
+
+Related commands
+
+  $ rdme validate   Validate your OpenAPI/Swagger definition. 
+  $ rdme swagger    Alias for \`rdme openapi\`. [deprecated]    
+"
+`;
+
+exports[`cli --help should print usage for a given command if supplied as \`help <command>\` 1`] = `
+"
+Upload, or resync, your OpenAPI/Swagger definition to ReadMe.
+
+Usage
+
+  rdme openapi [file] [options] 
+
+Options
+
+  --key string                Project API key                                                       
+  --id string                 Unique identifier for your API definition. Use this if you're re-     
+                              uploading an existing API definition                                  
+  --version string            Project version                                                       
+  --workingDirectory string   Working directory (for usage with relative external references)       
+  -h, --help                  Display this usage guide                                              
+
+Related commands
+
+  $ rdme validate   Validate your OpenAPI/Swagger definition. 
+  $ rdme swagger    Alias for \`rdme openapi\`. [deprecated]    
+"
+`;
+
+exports[`cli --help should show related commands for a subcommands help menu 1`] = `
+"
+List versions available in your project or get a version by SemVer (https://semver.org/).
+
+Usage
+
+  rdme versions [options] 
+
+Options
+
+  --key string       Project API key                                                 
+  --version string   A specific project version to view                              
+  --raw              Return raw output from the API instead of in a \\"pretty\\" format. 
+  -h, --help         Display this usage guide                                        
+
+Related commands
+
+  $ rdme versions:create   Create a new version for your project.                
+  $ rdme versions:update   Update an existing version for your project.          
+  $ rdme versions:delete   Delete a version associated with your ReadMe project. 
+"
+`;
