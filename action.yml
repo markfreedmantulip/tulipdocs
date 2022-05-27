@@ -15,6 +15,8 @@ runs:
       run: npm install --production --silent
       shell: bash
       working-directory: ${{ github.action_path }}
+    - name: Change wrapper permissions
+      run: chmod +x ${{ github.action_path }}/bin/rdme
     - name: Execute rdme command
       run: ${{ github.action_path }}/bin/rdme ${{ inputs.rdme }}
       shell: bash
