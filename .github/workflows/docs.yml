@@ -19,4 +19,4 @@ jobs:
         # Docs: https://docs.github.com/actions/using-workflows/workflow-syntax-for-github-actions#example-using-versioned-actions
         uses: markfreedmantulip/tulipdocs@v1.3
         with:
-          rdme: docs ./documentation --key=6oBSezklRNBOq0xlTzL3dt6e1qPQyphy --version=v1.3
+          rdme: docs ./documentation --key=6oBSezklRNBOq0xlTzL3dt6e1qPQyphy --version=1.0
